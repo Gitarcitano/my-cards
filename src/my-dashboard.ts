@@ -145,14 +145,13 @@ export class MyDashboard extends LitElement {
             card: {
                 height: '100%',
                 width: '100%',
-                background: 'rgba(255,0,0,0.15)',
+                background: 'transparent',
                 borderRadius: '0px',
                 boxShadow: 'none',
                 color: 'var(--primary-text-color)',
                 display: 'block',
                 transition: 'all 0.3s ease-out 0s',
-                position: 'relative',
-                // border: '1px solid red'
+                position: 'relative'
             }
         }
     }
